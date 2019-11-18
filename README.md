@@ -19,6 +19,8 @@ This stack can be deployed into any local development environment which runs doc
 
 LocalStack Home Dashboard: http://localhost:8055/#!/infra
 
+![alt text](https://raw.githubusercontent.com/nilan3/local-aws-spark-zeppelin-stack/master/misc/localstack.png)
+
 Resources used in this example:
 - S3 http://localhost:4572
 - DynamoDB http://localhost:4569
@@ -103,6 +105,8 @@ aws --endpoint-url=http://localhost:4569 dynamodb scan --table-name LocalTestTab
 
 ### Spark Development
 Local testing using a Spark standalone cluster and storing dummy data in LocalStack S3 to read from.
-Access spark UI http://localhost:7080/
-
 Access Zeppelin notebook and run Spark code (http://localhost:7000)
+![alt text](https://raw.githubusercontent.com/nilan3/local-aws-spark-zeppelin-stack/master/misc/zeppelin.png)
+
+Access spark UI http://localhost:7080/
+![alt text](https://raw.githubusercontent.com/nilan3/local-aws-spark-zeppelin-stack/master/misc/spark-master.png)
