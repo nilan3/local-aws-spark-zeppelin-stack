@@ -11,7 +11,7 @@ This stack can be deployed into any local development environment which runs doc
   - Install [GitBASH](https://gitforwindows.org/)
   - Install `make` using [Choco](https://chocolatey.org/) package manager
   ```choco install make```
-  
+
 ## Install Stack
 ```make install```
 
@@ -105,6 +105,7 @@ aws --endpoint-url=http://localhost:4569 dynamodb scan --table-name LocalTestTab
 
 ### Spark Development
 Local testing using a Spark standalone cluster and storing dummy data in LocalStack S3 to read from.
+
 Access Zeppelin notebook and run Spark code (http://localhost:7000)
 ![alt text](https://raw.githubusercontent.com/nilan3/local-aws-spark-zeppelin-stack/master/misc/zeppelin.png)
 
