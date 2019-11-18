@@ -1,2 +1,2 @@
-# local-aws-spark-stack
-AWS LocalStack + Multi-node Spark Cluster using Docker
+# local-aws-spark-zeppelin-stack
+AWS LocalStack + Spark Cluster + Zeppelin using Docker
