@@ -9,7 +9,7 @@ This stack can be deployed into any local development environment which runs doc
 - Install [Docker for Desktop](https://www.docker.com/products/docker-desktop)
 - Windows Users:
   - Install [GitBASH](https://gitforwindows.org/)
-  - Install `make` using [Choco](https://chocolatey.org/) package manager
+  - Install `make` (can be done using [Choco](https://chocolatey.org/) package manager)
   ```choco install make```
 
 ## Install Stack
