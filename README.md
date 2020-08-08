@@ -35,6 +35,8 @@ aws --endpoint-url=http://localhost:4572 s3 cp localstack/test-s3-file.txt s3://
 2. You can use Python Boto3 client to check the contents in a bucket.
 ```python
 import boto3
+import datetime
+from dateutil.tz import tzutc
 s3_conn = boto3.client('s3', endpoint_url='http://localhost:4572')
 objects = s3_conn.list_objects_v2(Bucket='dap-test-local-bucket')['Contents']
 objects
